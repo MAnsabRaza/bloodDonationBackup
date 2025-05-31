@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "caNTGNglrbGu9q7vsXc6rRb8RLZerrJZ4lV9FL0zCCU=",
+  "Source": "bloodDonationAppBackend",
+  "BasePath": "_content/bloodDonationAppBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
