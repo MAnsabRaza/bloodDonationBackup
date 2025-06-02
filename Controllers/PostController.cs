@@ -108,7 +108,7 @@ namespace bloodDonationAppBackend.Controllers
                 var post = await _appDbContext.post.FindAsync(id);
                 if (post == null)
                 {
-                    return NotFound(new { status = 404, message = "User not found" });
+                    return NotFound(new { status = 404, message = "Post not found" });
                 }
                 _appDbContext.post.Remove(post);
                 await _appDbContext.SaveChangesAsync();
